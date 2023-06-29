@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Righteous&display=swap');
+
+
+.background{
+    background-image:url(./imagens/bgphp.avif);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+
+}
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.logo i{
+    cursor: pointer;
+    height:40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid  #440072;
+    color:  #440072;
+    border-radius: 50%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    
+}
+button{
+    background-color: transparent;
+    color:  #440072;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    border: solid 1px  #440072;
+    padding: 5px;
+    border-radius: 15px;
+    width: 150px;
+}
+button:hover{
+    background-color: rgb(44, 44, 44);
+    transition: 0.5s;
+}
+.list a:hover{
+    color: #540986;
+    transition: 0.3s all;
+}
+.logo i:hover{
+    color: #540986;
+
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+}
+.redes-sociais a{
+    color:  #440072;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-right:2%;
+}
+.text span{
+    color:  #440072;
+}
+.btn{
+    margin-top: 3%;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+
+}

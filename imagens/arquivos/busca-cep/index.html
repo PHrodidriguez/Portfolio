@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca cep
+    </title>
+    <style>
+        div.campo{
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-left: 40%;
+    align-items: center;
+    background-color: rgb(243, 89, 120);
+    margin-right: 40%;
+    align-items: end;
+}
+div.bloco{
+    background-image: url("undrawlocation.png");
+    height: 850px;
+    margin-right: 64%;
+  
+}
+h1.titulo{
+    text-align: center;
+}
+#cep{
+    margin-top: 1%;
+    margin-left: 20%;
+    height: 30px;
+    
+}
+#logradouro{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 30px;
+}
+#bairro{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 30px;
+}
+#localidade{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 30px;
+}
+::placeholder{
+    font-size: 15pt;
+}
+body{
+    max-width: 100%;
+    min-width: 10%;
+}
+    </style>
+</head>
+<body>
+    <div class="campo">
+        <h1 class="titulo">Buscador de endereço</h1>
+        <div>
+        <input 
+        type="text"
+        id="cep"
+        placeholder="Digite seu cep" maxlength="8">
+        </div>
+    <div>
+        <input 
+        type="text"
+        id="logradouro"
+        placeholder="sua rua">
+        </div>
+        <div>
+        <input 
+        type="text"
+        id="bairro"
+        placeholder="seu bairro">
+            </div>
+            <div>
+        <input 
+        type="text"
+        id="localidade"
+        placeholder="sua cidade">
+    </div>
+    </div>
+    <div class="bloco">
+        </div>
+    <script src='./buscador.js'></script>
+</body>
+</html>
+
+   

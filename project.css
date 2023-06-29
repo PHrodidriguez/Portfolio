@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Righteous&display=swap');
+
+
+body{
+    background-image:url(./imagens/bgphp.avif) ;
+    background-position: cover;
+    background-size: 100%;
+    max-width: 100%;
+    min-width: 10%;
+
+}
+i{
+    color: #fff;
+    margin: 3%;
+}
+
+header{
+    display: flex;
+    color:#fff;
+    justify-content: space-evenly;
+    font-family:'Poppins' sans-serif ;
+    font-family: 'Righteous', cursive;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+}
+header img{
+    width: 20rem;
+    height: 10rem;
+    border: solid #440072; 
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+
+header img:hover{
+    border-color: #500781;
+    width: 20.3rem;
+    transition: 0.5s;
+}
